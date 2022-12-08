@@ -1,0 +1,534 @@
+@font-face {
+    src: url(./fonts/CADTMonoDisplay-Regular.ttf);
+    font-family: cadt;
+}
+@font-face {
+    src: url(./fonts/Niradei-Regular\ \(2\).ttf);
+    font-family: niradei;
+}
+body{
+    margin : none;
+}
+.full_container{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background-color: #F58C29;
+}
+.logo img{
+    width: 200px;
+    padding: 15px;
+}
+#yellow_stripe{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(223, 223, 28);
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #EBECF0;
+  
+}
+.navbar li{
+    padding-left: 50px;
+}
+.nav-link {
+    color: #F58C29;
+    font-family: cadt;
+}
+.dropdown-menu li a{
+    color: rgb(223, 223, 28);
+    font-family: cadt;
+}
+.dropdown-menu li a:hover{
+   color: gray;
+}
+
+@media all  {
+	.navbar .nav-item .dropdown-menu{ display: none; 
+        list-style: none;
+        margin-left: none;
+    }
+    .navbar .nav-item:hover .nav-link{   
+        color: rgb(223, 223, 28);
+    }
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block;
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top:0; 
+    }
+    .navbar .nav-link:hover{
+        color: rgb(223, 223, 28);
+    }
+}
+.picture img{
+    width: 100%;
+}
+.first_letter{
+    position: absolute;
+    font-size: 80px;
+    color: #F58C29;
+    top: 17px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: cadt;
+    text-align: center;
+}
+.second_letter{
+    padding: 150px;
+    margin-left: 200px;
+    margin-top: 220px;
+    position: absolute;
+    top: 17px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: niradei;
+}
+#orange_stripe{
+    width: 100%;
+    height: 30px;
+    background-color: #F58C29;
+}
+.mission{
+    width: 100%;
+    display: flex;
+}
+.mission_leftside{
+    width: 40%;
+}
+.mission_rightside{
+    margin-top: 100px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.mission_title{
+    font-family: cadt;
+    font-size: 50px;
+    color: #15284C;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.mission img{
+    width: 400px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.rightside dl{
+    padding-top: 20px;
+}
+.list h1{
+    font-family: cadt;
+    color: #15284C;
+    background-color: yellow;
+  
+}
+.list p{
+    font-family: niradei;
+    color: #15284C;
+    font-size: 20px;
+    background-color: #EBECF0;
+}
+.vision{
+    width: 100%;
+    display: flex;
+}
+.vision_leftside{
+    width: 60%;
+}
+.vision_rightside{
+    width: 40%;
+    margin-bottom: 40px;
+}
+.vision_main_title {
+    font-family: cadt;
+    font-size: 50px;
+    color: #15284C;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.vision_subtitle {
+    font-family: niradei;
+    font-size: 30px;
+    color: #15284C;
+    padding-left: 120px;
+    background-color: yellow;
+    width:max-content;
+    margin-bottom: 50px;
+}
+.vision_description {
+    font-family: niradei;
+    font-size: 20px;
+    color: #15284C;
+    padding-left: 120px;
+    line-height: 40px;
+    background-color: #EBECF0;
+    height: -100px;
+}
+.vision_rightside img {
+    width: 350px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.contact{
+    background-color: #15284C;
+}
+.vision_description span{
+    color: #F58C29;
+}
+.contact_title{
+    width: 100%;
+    color: white;
+    font-family: cadt;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.contact_info{
+    width: 100%;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white; 
+    text-align: center;
+}
+.contact_address{
+    width: 25%;
+}
+
+.contact_info img{
+    width:80px;
+    height: 80px;
+}
+.contact_address{
+    width: 25%;
+}
+.contact_facebook{
+    width:25%;
+}
+.contact_mail{
+    width:25%;
+}
+.contact_info_type{
+    margin-top: 10px;
+    font-family: cadt;
+}
+.contact_info_type_detail{
+    margin-top: 5px;
+    font-family: niradei;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
