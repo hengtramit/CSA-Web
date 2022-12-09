@@ -1,10 +1,10 @@
 /* CSS for <!--logo and navbar--> starts here*/
 @font-face {
-    src: url(./fonts/CADTMonoDisplay-Regular.ttf);
+    src: url(fonts/CADTMonoDisplay-Regular.ttf);
     font-family: cadt;
 }
 @font-face {
-    src: url(./fonts/Niradei-Regular\ \(2\).ttf);
+    src: url(fonts/Niradei-Regular\ \(2\).ttf);
     font-family: niradei;
 }
 body{
@@ -13,7 +13,6 @@ body{
 .full_container{
     width: 100%;
 }
-
 .content{
     width: 100%;
 }
@@ -22,16 +21,13 @@ body{
     top: 0;
     width: 100%;
 }
-/* .sticky + .content{
-    padding:102px;
-} */
 .header{
     width: 100%;
     background-color: #F58C29;
 }
 .logo img{
     max-width: 200px;
-    padding: 15px;
+    padding: 15px 15px 15px 30px;
 }
 #yellow_stripe{
     width: 100%;
@@ -42,7 +38,6 @@ body{
     width: 100%;
     height: 60px;
     background-color: #EBECF0;
-  
 }
 .navbar li{
     padding-left: 50px;
@@ -50,15 +45,21 @@ body{
 .nav-link {
     color: #F58C29;
     font-family: cadt;
+    font-size: 18px;
+    word-spacing: -5px;
+}
+.nav-link b{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18px;
 }
 .dropdown-menu li a{
     color: rgb(223, 223, 28);
     font-family: cadt;
+    font-size: 15px;
 }
 .dropdown-menu li a:hover{
    color: gray;
 }
-
 @media all  {
 	.navbar .nav-item .dropdown-menu{ display: none; 
         list-style: none;
@@ -77,37 +78,10 @@ body{
         color: rgb(223, 223, 28);
     }
 }
-
 /* CSS for <!--logo and navbar--> ends here*/
-
-
 .picture img{
     width: 100%;
 } 
-
-
-/* .first_letter{
-    position: absolute;
-    font-size: 80px;
-    color: #F58C29;
-    top: 17px;
-    padding: 50px;
-    margin-left: 200px;
-    margin-top: 200px;
-    font-family: cadt;
-    text-align: center;
-}
-.second_letter{
-    padding: 150px;
-    margin-left: 200px;
-    margin-top: 220px;
-    position: absolute;
-    top: 17px;
-    text-align: center;
-    color: white;
-    font-size: 24px;
-    font-family: niradei;
-} */
 #orange_stripe{
     width: 100%;
     height: 30px;
@@ -194,12 +168,19 @@ body{
     padding-top: 60px;
     padding-left: 100px;
 }
-.contact{
-    background-color: #15284C;
-}
 .vision_description span{
     color: #F58C29;
 }
+/* footer */
+#orange_stripe{
+    width: 100%;
+    height: 15px;
+    background-color: #F58C29;
+}
+.contact{
+    background-color: #15284C;
+}
+
 .contact_title{
     width: 100%;
     color: white;
@@ -211,22 +192,21 @@ body{
 .contact_info{
     width: 100%;
     display: flex;
-    padding-left: 60px;
+    padding-left: 30px;
     padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     color: white; 
     text-align: center;
 }
-.contact_address{
-    width: 25%;
-}
-
 .contact_info img{
     max-width:80px;
     height: 80px;
 }
 .contact_address{
+    width: 25%;
+}
+.contact_telegram{
     width: 25%;
 }
 .contact_facebook{
@@ -239,315 +219,10 @@ body{
     margin-top: 10px;
     font-family: cadt;
 }
+.contact_info_type_detail p a{
+    color: white;
+}
 .contact_info_type_detail{
     margin-top: 5px;
     font-family: niradei;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
