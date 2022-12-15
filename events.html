@@ -115,5 +115,20 @@
                 </div>
             </div>
         </div>
+        <script>
+            /*js for fixed logo and navbar*/
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("upper");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
     </body>
 </html>
