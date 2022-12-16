@@ -1,4 +1,3 @@
-/* CSS for <!--logo and navbar--> starts here*/
 @font-face {
     src: url(fonts/CADTMonoDisplay-Regular.ttf);
     font-family: cadt;
@@ -79,104 +78,93 @@ body{
     }
 }
 /* CSS for <!--logo and navbar--> ends here*/
-.picture img{
+.student_club img{
     width: 100%;
-} 
-#orangestripe{
+}
+#orange_stripe{
     width: 100%;
     height: 30px;
     background-color: #F58C29;
 }
-.mission{
+.title_box{
     width: 100%;
-    display: flex;
 }
-.mission_leftside{
-    width: 40%;
-}
-.mission_rightside{
-    margin-top: 100px;
-    width: 60%;
-    margin-bottom: 40px;
-}
-.mission_title{
+.club_title{
+    width: 100%;
     font-family: cadt;
-    font-size: 50px;
-    color: #15284C;
+    font-size: 30px;
     padding-top: 30px;
-    padding-left: 120px;
+    color: yellow;
+    display: flex;
+    padding-left: 20px;
 }
-.mission img{
-    max-width: 400px;
-    padding-top: 30px;
-    padding-left: 100px;
+.title{
+    width: 32.5%;
+   
+}
+.yellow_line{
+    width: 67.5%;
+    height: 10px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.main_box{
+    display: inline-block;
+}
+.boxes{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.rightside dl{
-    padding-top: 20px;
-}
-.list h1{
-    font-family: cadt;
-    color: #15284C;
-    background-color: yellow;
-  
-}
-.list p{
-    font-family: niradei;
-    color: #15284C;
-    font-size: 20px;
+.box_content {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
     background-color: #EBECF0;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-.vision{
+.box_content img{
     width: 100%;
-    display: flex;
+    border-radius: 5%;
 }
-.vision_leftside{
-    width: 60%;
+.details{
+    padding-top: 10px;
 }
-.vision_rightside{
-    width: 40%;
-    margin-bottom: 40px;
-}
-.vision_main_title {
+.club_name{
     font-family: cadt;
-    font-size: 50px;
-    color: #15284C;
-    padding-top: 30px;
-    padding-left: 120px;
 }
-.vision_subtitle {
+.description{
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: niradei;
-    font-size: 30px;
-    color: #15284C;
-    padding-left: 120px;
-    background-color: yellow;
-    width:max-content;
-    margin-bottom: 50px;
 }
-.vision_description {
-    font-family: niradei;
-    font-size: 20px;
-    color: #15284C;
-    padding-left: 120px;
-    line-height: 40px;
-    background-color: #EBECF0;
-    height: -100px;
+.box_content:hover{
+    scale: 1.05;
+    box-shadow: 0 0 10px #F58C29;
 }
-.vision_rightside img {
-    width: 350px;
-    padding-top: 60px;
-    padding-left: 100px;
+#art_club_title{
+    width: 19%;
 }
-.vision_description span{
-    color: #F58C29;
+#art_club_yellow_line{
+    width: 81%;
+}
+#sport_club_title{
+    width: 23%;
+}
+#sport_club_yellow_line{
+    width: 77%;
 }
 /* footer */
-#orange_stripe{
-    width: 100%;
-    height: 15px;
-    background-color: #F58C29;
-}
+
 .contact{
     background-color: #15284C;
 }
@@ -225,4 +213,7 @@ body{
 .contact_info_type_detail{
     margin-top: 5px;
     font-family: niradei;
+}
+#sport_title_box{
+    margin-bottom: 50px;
 }
