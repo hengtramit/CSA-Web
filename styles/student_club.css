@@ -88,29 +88,132 @@ body{
 }
 .title_box{
     width: 100%;
-    
 }
 .club_title{
     width: 100%;
     font-family: cadt;
     font-size: 30px;
     padding-top: 30px;
-
     color: yellow;
     display: flex;
-    text-align: center;
+    padding-left: 20px;
 }
 .title{
-    width: 40%;
+    width: 32.5%;
    
 }
 .yellow_line{
-    width: 60%;
-    height: 15px;
+    width: 67.5%;
+    height: 10px;
     background-color: yellow;
-    margin-top: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
     
 }
-.box{
+.main_box{
+    display: inline-block;
+}
+.boxes{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.box_content {
     width: 25%;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    background-color: #EBECF0;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box_content img{
+    width: 100%;
+    border-radius: 5%;
+}
+.details{
+    padding-top: 10px;
+}
+.club_name{
+    font-family: cadt;
+}
+.description{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: niradei;
+}
+.box_content:hover{
+    scale: 1.05;
+    box-shadow: 0 0 10px #F58C29;
+}
+#art_club_title{
+    width: 19%;
+}
+#art_club_yellow_line{
+    width: 81%;
+}
+#sport_club_title{
+    width: 23%;
+}
+#sport_club_yellow_line{
+    width: 77%;
+}
+/* footer */
+
+.contact{
+    background-color: #15284C;
+}
+
+.contact_title{
+    width: 100%;
+    color: white;
+    font-family: cadt;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.contact_info{
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white; 
+    text-align: center;
+}
+.contact_info img{
+    max-width:80px;
+    height: 80px;
+}
+.contact_address{
+    width: 25%;
+}
+.contact_telegram{
+    width: 25%;
+}
+.contact_facebook{
+    width:25%;
+}
+.contact_mail{
+    width:25%;
+}
+.contact_info_type{
+    margin-top: 10px;
+    font-family: cadt;
+}
+.contact_info_type_detail p a{
+    color: white;
+}
+.contact_info_type_detail{
+    margin-top: 5px;
+    font-family: niradei;
+}
+#sport_title_box{
+    margin-bottom: 50px;
 }
