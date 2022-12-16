@@ -49,10 +49,25 @@ body{
     color: #F58C29;
     font-family: cadt;
     word-spacing: -5px;
+    margin-right: 30px;
+    transition: transform .2s; /* Animation */
+}
+.nav-link:hover{
+    transform: scale(1.05);
 }
 .nav-link b{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 15px;
+}
+.nav-bg{
+    background-color: #f58c29;
+    border-radius: 10px;
+}
+.nav-bg:hover{
+    scale: 1.05;
+}
+.nav-link c{
+    color: white;
 }
 .dropdown-menu li a{
     color: rgb(223, 223, 28);
@@ -80,11 +95,6 @@ body{
 .picture img{
     width: 100%;
 } 
-#orangestripe{
-    width: 100%;
-    height: 30px;
-    background-color: #F58C29;
-}
 .mission{
     width: 100%;
     display: flex;
@@ -172,7 +182,7 @@ body{
 /* footer */
 #orange_stripe{
     width: 100%;
-    height: 15px;
+    height: 30px;
     background-color: #F58C29;
 }
 .contact{
