@@ -138,6 +138,7 @@ body{
 
 .box_content {
     width: 25%;
+    min-height: 400px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
