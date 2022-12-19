@@ -57,6 +57,7 @@ body{
 }
 .nav-bg{
     background-color: #f58c29;
+    padding-right: 15px;
     border-radius: 10px;
 }
 .nav-bg:hover{
