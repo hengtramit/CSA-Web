@@ -210,10 +210,12 @@ body{
 .vision img{
     max-width: 280px;
 }
+
 .vision_main_title{
     font-family: cadt;
     font-size: 50px;
     color: #15284C;
+    padding-top: 35px;
 }
 .vision_subtitle{
     font-family: niradei;
