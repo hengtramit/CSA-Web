@@ -42,6 +42,9 @@ body{
     height: 60px;
     background-color: #ebecf0;
 }
+.navbar-nav{
+    background-color: #ebecf0;
+}
 .navbar li{
     padding-left: 50px;
 }
