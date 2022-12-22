@@ -19,11 +19,6 @@ body{
 .content{
     width: 100%;
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 .header{
     width: 100%;
     background-color: #F58C29;
@@ -68,6 +63,9 @@ body{
 .nav-link b{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 15px;
+}
+.collapse{
+    background-color: #ebecf0;
 }
 .dropdown-menu li a{
     color: rgb(223, 223, 28);
