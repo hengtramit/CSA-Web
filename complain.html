@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./styles/compliants.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <div>
          
         <!--logo-->
         <div class="upper_section" id="upper">
@@ -22,71 +22,51 @@
                     <div id="yellow_stripe"></div> 
                 </div>
             </div>
-            <!--Navbar-->
-            <nav class="navbar navbar-expand-xl">
-                <div class="container-fluid">
-                    <!-- button toggle for mobile -->
-                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-start bg-white" id="main-nav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-warning" href="./homepage.html">ABOUT US</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./homepage.html">WHAT IS CSA?</a></li>
-                                    <li><a class="dropdown-item" href="#">MISSION</a></li>
-                                    <li><a class="dropdown-item" href="#">VISION</a></li>
-                                    <li><a class="dropdown-item" href="#">CONTACT</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-warning" href="./structure.html">OUR STRUCTURE</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">EXECUTIVE COMMITTEE</a></li>
-                                    <li><a class="dropdown-item" href="#">REPRESENTATIVE</a></li>
-                                    <li><a class="dropdown-item" href="#">COMMITTEE</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-warning" href="./student_club.html">STUDENT CLUBS</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">HARD-SKILL CLUBS</a></li>
-                                    <li><a class="dropdown-item" href="#">ART CLUBS</a></li>
-                                    <li><a class="dropdown-item" href="#">SPORT CLUBS</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="nav-link text-warning" href="events/events.html">EVENTS</a>
-                            </li>
-                            <li class="nav-bg">
-                                <a class="nav-link text-warning" href="/complain.html"><c>COMPLAINTS</c></a>
-                            </li>
-                        </ul>
-                    </div> 
-                </div> 
-            </nav>
         </div>
-        <!-- <div class="struct">
-                <h1>COMPLAINTS</h1>
-            </div>
-        <div class="left_right">
-            <div class="leftside">
-                <div class="title">
-                    <div>WE</div>
-                    <div>HEAR</div>
-                    <div>YOU</div>
-                </div>
-                <div class="submit_btn">
-                    <a href="https://forms.gle/eCwkrMbHPzwwpCAg8" target="_blank">Submit your complaints here</a>
-                </div>
-            </div>
-                        
-            <div class="rightside">
-                 <img src="./assets/complian.webp">
-            </div>
-        </div> -->
-                 
+        <!--Navbar-->
+        <nav class="navbar sticky-top navbar-expand-xl">
+            <div class="container-fluid">
+                <!-- button toggle for mobile -->
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-start" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-warning" href="./homepage.html">ABOUT US</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./homepage.html">WHAT IS CSA?</a></li>
+                                <li><a class="dropdown-item" href="#">MISSION</a></li>
+                                <li><a class="dropdown-item" href="#">VISION</a></li>
+                                <li><a class="dropdown-item" href="#">CONTACT</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-warning" href="./structure.html">OUR STRUCTURE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">EXECUTIVE COMMITTEE</a></li>
+                                <li><a class="dropdown-item" href="#">REPRESENTATIVE</a></li>
+                                <li><a class="dropdown-item" href="#">COMMITTEE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-warning" href="./student_club.html">STUDENT CLUBS</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">HARD-SKILL CLUBS</a></li>
+                                <li><a class="dropdown-item" href="#">ART CLUBS</a></li>
+                                <li><a class="dropdown-item" href="#">SPORT CLUBS</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="nav-link text-warning" href="events/events.html">EVENTS</a>
+                        </li>
+                        <li class="nav-bg">
+                            <a class="nav-link text-warning" href="/complain.html"><c>COMPLAINTS</c></a>
+                        </li>
+                    </ul>
+                </div> 
+            </div> 
+        </nav>   
         <div class="container-xxl">
             <div class="row justify-content-center">
                 <div class="col-xl-6 mt-5 mb-5">
@@ -101,71 +81,54 @@
                 </div>
                 <div class="col-xl-4 d-none d-md-block mt-5 mb-5"><img src="./assets/complian.webp" alt="" class="img-fluid"></div>
             </div>
-        </div>
-           
-        </div>            
+        </div>           
         <div id="orange_stripe"></div>
-                <!--Contact-->
-                <div class="contact">
-                    <div class="contact_title text-center text-md-start p-5">CONTACT</div>
-                    <div class="contact_info">
-                        <div class="container-lg">
-                            <div class="row justfy-content-center">
-                                <div class="col-md-5 col-lg-3 text-center ">
-                                    <div class="contact_address">
-                                        <div><img class="img-fluid" src="/assets/destination.png"></div>
-                                        <div class="contact_info_type">Address</div>
-                                        <div class="contact_info_type_detail">
-                                            <p><a href="https://goo.gl/maps/TDrdVGLVnK8AAmmy5", target="_blank">CADT IDT (ROOM 202)</a></p>
-                                        </div>
-                                    </div>
+        <!--Contact-->
+        <div class="contact">
+            <div class="contact_title text-center text-md-start p-5">CONTACT</div>
+            <div class="contact_info">
+                <div class="container-lg">
+                    <div class="row justfy-content-center">
+                        <div class="col-md-5 col-lg-3 text-center ">
+                            <div class="contact_address">
+                                <div><img class="img-fluid" src="/assets/destination.png"></div>
+                                <div class="contact_info_type">Address</div>
+                                <div class="contact_info_type_detail">
+                                    <p><a href="https://goo.gl/maps/TDrdVGLVnK8AAmmy5", target="_blank">CADT IDT (ROOM 202)</a></p>
                                 </div>
-                                <div class="col-md-5 col-lg-3 text-center">
-                                    <div class="contact_telegram">
-                                        <div><img class="img-fluid" src="/assets/telegram.png"></div>
-                                        <div class="contact_info_type">Telegram</div>
-                                        <div class="contact_info_type_detail">
-                                            <p><a href="https://t.me/+5kNUeLgdwtI3YzY9", target="_blank">CADT STUDENT ASSOCIATION</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3 text-center">
+                            <div class="contact_telegram">
+                                <div><img class="img-fluid" src="/assets/telegram.png"></div>
+                                <div class="contact_info_type">Telegram</div>
+                                <div class="contact_info_type_detail">
+                                    <p><a href="https://t.me/+5kNUeLgdwtI3YzY9", target="_blank">CADT STUDENT ASSOCIATION</a></p>
                                 </div>
-                                <div class="col-md-5 col-lg-3 text-center">
-                                    <div class="contact_facebook">
-                                        <div><img class="img-fluid" src="/assets/fb.png"></div>
-                                        <div class="contact_info_type">Facebook</div>
-                                        <div class="contact_info_type_detail">
-                                            <p><a href="https://www.facebook.com/CADT.sa", target="_blank">សមាគមន៏និស្សិតនៃ CADT</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3 text-center">
+                            <div class="contact_facebook">
+                                <div><img class="img-fluid" src="/assets/fb.png"></div>
+                                <div class="contact_info_type">Facebook</div>
+                                <div class="contact_info_type_detail">
+                                    <p><a href="https://www.facebook.com/CADT.sa", target="_blank">សមាគមន៏និស្សិតនៃ CADT</a></p>
                                 </div>
-                                <div class="col-md-5 col-lg-3 text-center">
-                                    <div class="contact_mail">
-                                        <div><img class="img-fluid" src="/assets/mail.png"></div>
-                                        <div class="contact_info_type">Email</div>
-                                        <div class="contact_info_type_detail">
-                                            <p><a href="https://mail.google.com/mail/u/lee@example.org/?view=cm&to=phuymeily.chou@student.cadt.edu.kh", target="_blank">phuymeily.chou@student.cadt.edu.kh</a></p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3 text-center">
+                            <div class="contact_mail">
+                                <div><img class="img-fluid" src="/assets/mail.png"></div>
+                                <div class="contact_info_type">Email</div>
+                                <div class="contact_info_type_detail">
+                                    <p><a href="https://mail.google.com/mail/u/lee@example.org/?view=cm&to=phuymeily.chou@student.cadt.edu.kh", target="_blank">phuymeily.chou@student.cadt.edu.kh</a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>        
-        <script>
-            /*js for fixed logo and navbar*/
-            window.onscroll = function() {myFunction()};
-            
-            var header = document.getElementById("upper");
-            var sticky = header.offsetTop;
-            
-            function myFunction() {
-                if (window.pageYOffset > sticky) {
-                    header.classList.add("sticky");
-                } else {
-                    header.classList.remove("sticky");
-                }
-            }
-        </script>
+                </div>
+            </div>
+        </div>   
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
 </html> 
