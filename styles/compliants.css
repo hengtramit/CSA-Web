@@ -62,6 +62,7 @@ body{
 .nav-bg{
     background-color: #f58c29;
     border-radius: 10px;
+    padding-right: 15px;
 }
 .nav-bg:hover{
     scale: 1.05;
@@ -102,7 +103,7 @@ body{
     text-align: center;
     padding: 20px 0px 25px 0px;
 }
-.content{
+/* .content{
     width: 100%;
     
 }
@@ -112,19 +113,16 @@ body{
 }
 .leftside{
    width: 50%;
-}
+} */
 .title{
     font-family: cadt;
     font-size: 80px;
     color: #15284C;
-    margin-left: 150px;
-    margin-top: 50px;
     line-height:80px;
-
+    margin: 30px;
 }
 .submit_btn{
-    margin-top: 30px;
-    margin-left: 160px;
+    margin: 30px;
     background-color: #15284C;
     color: #ffffff;
     text-align: center;
