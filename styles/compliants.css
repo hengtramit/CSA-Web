@@ -129,10 +129,10 @@ body{
     background-color: #15284C;
     color: #ffffff;
     text-align: center;
-    font-family: niradei;
+    font-family: cadt;
     font-size: 20px;
-    width: 200px;
-    height: 60px;
+    width: 300px;
+    height: 70px;
     border-radius: 10px;
 }
 .submit_btn a{

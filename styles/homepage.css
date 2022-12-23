@@ -98,7 +98,7 @@ body{
 .picture img{
     width: 100%;
 } 
-.mission{
+/* .mission{
     width: 100%;
     display: flex;
 }
@@ -181,7 +181,58 @@ body{
 }
 .vision_description span{
     color: #F58C29;
+} */
+.mission_title{
+    font-family: cadt;
+    font-size: 50px;
+    color: #15284C;
 }
+.mission_description img{
+    max-width: 400px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.mission_description{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.list h1{
+    font-family: cadt;
+    color: #15284C;
+    background-color: #ebecf0
+}
+.list p{
+    font-family: niradei;
+    color: #15284C;
+    font-size: 20px;
+}
+.vision img{
+    max-width: 280px;
+}
+
+.vision_main_title{
+    font-family: cadt;
+    font-size: 50px;
+    color: #15284C;
+    padding-top: 35px;
+}
+.vision_subtitle{
+    font-family: niradei;
+    font-size: 30px;
+    color: #15284C;
+    margin-bottom: 50px;
+}
+.vision_description {
+    font-family: niradei;
+    font-size: 22px;
+    color: #15284C;
+    line-height: 40px;
+    background-color: #EBECF0;
+}
+
+
+
 /* footer */
 #orange_stripe{
     width: 100%;
